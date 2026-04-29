@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Корзина - Интернет магазин</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Интернет магазин</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="index.html">Каталог</a></li>
+                    <li><a href="cart.html">Корзина</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="cart" id="cart">
+            <h2>Корзина</h2>
+            <div class="cart-items">
+                <!-- Товары в корзине будут добавлены через JavaScript -->
+            </div>
+            <div class="cart-total">
+                <strong>Итого: </strong><span id="total-price">0</span> руб
+            </div>
+            <div class="cart-actions">
+                <button class="btn" onclick="clearCart()">Очистить корзину</button>
+                <button class="btn" onclick="window.location.href='checkout.html'">Оформить заказ</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Интернет магазин. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="src.js"></script>
+</body>
+</html>
