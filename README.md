@@ -24,4 +24,3 @@
 2. Создайте файлы index.html, src/css/style.css, src/js/main.js
 3. Добавьте изображения товаров в папку src/images
 4. Откройте index.html в браузереtest 2 for new branch
-   создана ветка vetka
